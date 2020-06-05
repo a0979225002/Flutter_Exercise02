@@ -3,14 +3,14 @@ import 'package:flutter/cupertino.dart';
 
 import 'package:flutter/material.dart';
 
-  void main(){
+void main(){
 
 
-    runApp(MyApp());
+  runApp(MyApp());
 
 
-  }
-  class MyApp extends StatelessWidget{
+}
+class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -23,8 +23,8 @@ import 'package:flutter/material.dart';
       ),
     );
   }
-  }
-  class HomeContent extends StatelessWidget{
+}
+class HomeContent extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -32,11 +32,11 @@ import 'package:flutter/material.dart';
       child: Container(
         child: ClipOval(//自動產生圓形圖
           child: Image.asset(
-            'images/2.0x/01.jpeg'
+              'images/2.0x/01.jpeg'
           ),
         ),
       ),
     );
   }
 
-  }
+}
